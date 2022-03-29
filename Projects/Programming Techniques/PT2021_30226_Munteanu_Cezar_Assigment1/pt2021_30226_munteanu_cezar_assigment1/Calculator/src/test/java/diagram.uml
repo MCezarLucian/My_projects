@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="437.0">Operatii</node>
+    <node x="344.1347098214286" y="662.0">Controller</node>
+    <node x="281.0" y="426.0">View</node>
+    <node x="198.85383184523812" y="136.0">Polinom</node>
+    <node x="136.33333333333334" y="0.0">Monom</node>
+    <node x="261.24668898809523" y="766.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Controller" target="Polinom">
+      <point x="109.12499999999991" y="-27.0" />
+      <point x="598.7597098214285" y="637.0" />
+      <point x="551.8716889880952" y="637.0" />
+      <point x="551.8716889880952" y="386.0" />
+      <point x="378.99668898809523" y="386.0" />
+      <point x="83.14285714285711" y="115.0" />
+    </edge>
+    <edge source="Operatii" target="Polinom">
+      <point x="93.375" y="-82.0" />
+      <point x="217.875" y="406.0" />
+      <point x="240.42526041666667" y="406.0" />
+      <point x="-55.428571428571445" y="115.0" />
+    </edge>
+    <edge source="Operatii" target="Monom">
+      <point x="-93.375" y="-82.0" />
+      <point x="31.125" y="406.0" />
+      <point x="63.427157738095275" y="406.0" />
+      <point x="63.427157738095275" y="106.0" />
+      <point x="150.23333333333335" y="106.0" />
+      <point x="-55.599999999999994" y="38.0" />
+    </edge>
+    <edge source="Main" target="Polinom">
+      <point x="-62.083333333333314" y="-27.0" />
+      <point x="273.6633556547619" y="746.0" />
+      <point x="259.5" y="746.0" />
+      <point x="259.5" y="396.0" />
+      <point x="268.1395461309524" y="396.0" />
+      <point x="-27.714285714285722" y="115.0" />
+    </edge>
+    <edge source="Main" target="View">
+      <point x="12.416666666666686" y="-27.0" />
+      <point x="348.1633556547619" y="746.0" />
+      <point x="333.6347098214286" y="746.0" />
+      <point x="333.6347098214286" y="637.0" />
+      <point x="348.5" y="637.0" />
+      <point x="-22.5" y="93.0" />
+    </edge>
+    <edge source="View" target="Polinom">
+      <point x="0.0" y="-93.0" />
+      <point x="371.0" y="406.0" />
+      <point x="323.5681175595238" y="406.0" />
+      <point x="27.714285714285666" y="115.0" />
+    </edge>
+    <edge source="Controller" target="View">
+      <point x="-109.12500000000006" y="-27.0" />
+      <point x="380.5097098214285" y="637.0" />
+      <point x="393.5" y="637.0" />
+      <point x="22.5" y="93.0" />
+    </edge>
+    <edge source="Polinom" target="Monom">
+      <point x="0.0" y="-115.0" />
+      <point x="295.8538318452381" y="106.0" />
+      <point x="233.63333333333335" y="106.0" />
+      <point x="27.80000000000001" y="38.0" />
+    </edge>
+    <edge source="Main" target="Controller">
+      <point x="37.25" y="-27.0" />
+      <point x="372.99668898809523" y="736.0" />
+      <point x="416.8847098214286" y="736.0" />
+      <point x="-72.75" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="318.0" y="502.0" />
+  <SelectedNodes>
+    <node>View</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
