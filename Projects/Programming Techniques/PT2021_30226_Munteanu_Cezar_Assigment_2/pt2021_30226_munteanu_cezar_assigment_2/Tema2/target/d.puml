@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+:Main Admin: as Admin
+
+User --> (View1)
+User --> (View2)
+(View1) --> (Controller)
+(Controller) --> (App)
+(App) --> (Controller)
+(App) --> (Coada)
+(Coada) --> (App)
+(App) --> (Client)
+(Coada) --> (Client)
+(Client) --> (App)
+(App) --> (View2)
+
+
+note right of Admin : Simulator de cozi.
+
+
+
+
+@enduml
